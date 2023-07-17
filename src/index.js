@@ -1,13 +1,24 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
+import Launch from './launch';
+import Gallary from './launch';
+import Store from './launch';
+// import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { BrowserRouter } from "react-router-dom";
+import { Route, Switch } from "react-router-dom";
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+      <Switch>
+        <Route exact path='/' component={Launch} />
+        <Route exact path='/store' component={Gallary} />
+        <Route exact path='/gallary' component={Store} />
+      </Switch>
+    </BrowserRouter>
   </React.StrictMode>
 );
 
