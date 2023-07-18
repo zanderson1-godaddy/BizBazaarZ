@@ -61,6 +61,14 @@ class DB {
     }
 
     getIndexByTag(tag) {
+        //array of index 0 throught length of data
+        const allIndexes = [];
+        this.data.forEach((item, index) => {
+            allIndexes.push(index);
+        })
+        if (tag === "explore"){
+            return allIndexes; 
+        }
         const indexes = [];
         this.data.forEach((item, index) => {
             if (item.tag === tag) {
@@ -68,7 +76,7 @@ class DB {
             }
         })
         if (indexes.length === 0) {
-            return this.data;
+            return allIndexes;
         }
         return indexes;
     }

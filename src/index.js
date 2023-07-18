@@ -19,6 +19,7 @@ root.render(
         <Route exact path='/gallery/:id' render={routeProps => <Gallery {...routeProps} />} />
         <Route exact path='/store/:id' render={routeProps => <Store {...routeProps} />} />
         <Route exact path='/' component={Launch} />
+        <Route exact path='*' component={Launch} />
       </Switch>
     </BrowserRouter>
   </React.StrictMode>

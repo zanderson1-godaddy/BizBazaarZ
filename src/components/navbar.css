@@ -1,9 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@font-face {
+    font-family: "GD Sherpa";
+    src: url("https://d85ecz8votkqa.cloudfront.net/fonts/gd-sherpa-regular.eot"); /* IE9 Compat Modes */
+    src: local("GD Sherpa"), local("GD-Sherpa"),
+      url("https://d85ecz8votkqa.cloudfront.net/fonts/gd-sherpa-regular.eot?#iefix")
+        format("embedded-opentype"),
+      /* IE6-IE8 */ url("https://d85ecz8votkqa.cloudfront.net/fonts/gd-sherpa-regular.woff")
+        format("woff"),
+      /* Modern Browsers */ url("https://d85ecz8votkqa.cloudfront.net/fonts/gd-sherpa-regular.ttf")
+        format("truetype"),
+      /* Safari, Android, iOS */
+        url("https://d85ecz8votkqa.cloudfront.net/fonts/gd-sherpa-regular.svg#GD Sherpa Regular")
+        format("svg"); /* Legacy iOS */
+  }
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: GD Sherpa;
     transition: all 0.3s ease;
 }
 
@@ -37,7 +50,8 @@
     font-family: GD Sherpa;
     font-size: 36px;
     font-style: normal;
-    font-weight: 850;
+    margin: 0px;
+    padding: 0px;
 }
 
 .right {
@@ -56,10 +70,18 @@
     font-weight: 850;
     line-height: 150%;
     width: 175px;
+    padding: 5px 0px;
 }
 
 .right img{
-    width: 24px;
-    height: 24px;
-    margin-left: 25px;
+    width: 44px;
+    height: 44px;
+    margin-left: 15px;
+    padding: 10px;
+}
+
+.right *:hover{
+  cursor: pointer;
+  border: 1px solid #358FC0;
+  border-radius: 5px;
 }

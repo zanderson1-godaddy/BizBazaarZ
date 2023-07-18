@@ -2,8 +2,14 @@ import React from "react";
 import GoDaddy from "../assets/gd-the-go.png";
 import searchIcon from "../assets/search.png";
 import "./navbar.css";
+import { useState } from "react";
+import { Redirect } from "react-router-dom";
 
 const Navbar = () => {
+    const [redirect, setRedirect] = useState('');
+    if (redirect) {
+        return <Redirect to={redirect} />
+    }
     return (
     <div className="navbar">
         <div className="left">
@@ -13,9 +19,15 @@ const Navbar = () => {
             <h1>BizBazaar</h1>
         </div>
         <div className="right">
-            <p>EXPLORE</p>
-            <p>SAVED</p>
-            <img id = "searchIcon" src={searchIcon}/>
+            <p
+            onClick={() => {setRedirect("/gallery/explore")}}
+            >EXPLORE</p>
+            <p
+            onClick={() => {setRedirect("/")}}
+            >SAVE</p>
+            <img id = "searchIcon" src={searchIcon}
+            onClick={() => {setRedirect("/search")}}
+            />
         </div>
     </div>
     )
