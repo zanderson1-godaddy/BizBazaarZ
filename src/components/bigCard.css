@@ -1,0 +1,39 @@
+.big-card {
+    width: 90vw;
+    height: 400px;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 16px;
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .big-card-image {
+    width: 200px;
+    height: auto;
+    margin-bottom: 8px;
+  }
+  
+  .big-card-content {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .big-card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  .big-card-link {
+    color: #333;
+    text-decoration: none;
+    margin-top: 16px;
+  }
+  
+  .big-card-link:hover {
+    text-decoration: underline;
+  }
+  

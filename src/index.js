@@ -1,8 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import Launch from './launch';
-import Gallary from './launch';
-import Store from './launch';
+import Gallery from './gallery';
+import Store from './store';
+import Search from './search';
 // import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from "react-router-dom";
@@ -14,9 +15,10 @@ root.render(
   <React.StrictMode>
     <BrowserRouter>
       <Switch>
+        <Route exact path='/search' component={Search} />
+        <Route exact path='/gallery/:id' render={routeProps => <Gallery {...routeProps} />} />
+        <Route exact path='/store/:id' render={routeProps => <Store {...routeProps} />} />
         <Route exact path='/' component={Launch} />
-        <Route exact path='/store' component={Gallary} />
-        <Route exact path='/gallary' component={Store} />
       </Switch>
     </BrowserRouter>
   </React.StrictMode>

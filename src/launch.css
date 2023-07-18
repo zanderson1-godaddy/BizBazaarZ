@@ -1,18 +1,8 @@
-.launch-container {
-    position: absolute;
-    top: 80%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .launch-button {
-    margin: 10px;
-    padding: 15px;
-    font-size: 16px;
-    cursor: pointer;
-  }
-  
+.launch{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100vh;
+  width: 100vw;
+}
