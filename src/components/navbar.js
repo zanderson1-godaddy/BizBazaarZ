@@ -24,7 +24,7 @@ const Navbar = () => {
             >EXPLORE</p>
             <p
             onClick={() => {setRedirect("/")}}
-            >SAVE</p>
+            >SAVED</p>
             <img id = "searchIcon" src={searchIcon}
             onClick={() => {setRedirect("/search")}}
             />

@@ -1,38 +1,55 @@
-.card {
-    width: 50%;
-    background-color: #f2f2f2;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    padding: 16px;
-    margin-bottom: 16px;
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .card-image {
-    width: 100%;
-    height: auto;
-    margin-bottom: 8px;
-  }
-  
-  .card-content {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .card-title {
-    font-size: 18px;
-    font-weight: bold;
-    margin-bottom: 8px;
-  }
-  
-  .card-link {
-    color: #333;
-    text-decoration: none;
-    margin-top: 16px;
-  }
-  
-  .card-link:hover {
-    text-decoration: underline;
-  }
-  
+.card{
+  width: 44%;
+  aspect-ratio: 423 / 328;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  border-radius: 15px;
+  padding: 0px;
+}
+
+.card{
+  cursor: pointer;
+}
+
+.card-image{
+  width: 100%;
+  border-radius: 15px 15px 0px 0px;
+}
+
+.card-content{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  height: 50px;
+  align-items: center;
+  padding: 0px 25px;
+  border-radius: 15px;
+}
+
+.card-content h2{
+  color: #2D3B6B;
+  font-family: GD Sherpa;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 850;
+}
+
+.card-link{
+  border-radius: 4px;
+  background: #BED8E7;
+  display: inline-flex;
+  padding: 8px;
+  align-items: flex-start;
+  color: #358FC0;
+  font-family: GD Sherpa;
+  font-size: 12px;
+  font-style: normal;
+  line-height: 120%; /* 19.2px */
+  letter-spacing: 0.9px;
+  text-transform: uppercase;
+}
+

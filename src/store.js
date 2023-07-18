@@ -5,6 +5,8 @@ import BigCard from './components/bigCard.js';
 import AwesomeSlider from 'react-awesome-slider';
 import AwesomeSliderStyles from 'react-awesome-slider/src/styles';
 import 'react-awesome-slider/dist/styles.css';
+import Navbar from './components/navbar';
+import './store.css';
 
 
 const Store = (props) => {
@@ -16,16 +18,23 @@ const Store = (props) => {
     const newData = secondHalf.concat(firstHalf);
     const [currentIndex, setCurrentIndex] = useState((Math.floor(data.length / 2) + 1));
     return (
-        <div>
-            <AwesomeSlider
-                bullets={false}
-            >
-                {newData.map((data, index) => (
-                    <div key={index} style={{width: "100%", height: '100%'}}>
-                        <BigCard index={index} />
-                    </div>
-                ))}
-            </AwesomeSlider>
+        <div className='store'>
+            <Navbar/>
+            <div className='store-left'>
+                <h1 className='storeH1'> {'<- Explore the market'}</h1>
+                <div className='sliderContainer'>
+                    <AwesomeSlider bullets={false} >
+                        {newData.map((data, index) => (
+                            <div key={index} style={{width: "100%", height: '100%'}}>
+                                <BigCard index={index} />
+                            </div>
+                        ))}
+                    </AwesomeSlider>
+                </div>
+            </div>
+            
+
+
         </div>
     )
 }

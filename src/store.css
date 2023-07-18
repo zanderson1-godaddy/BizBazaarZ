@@ -1,0 +1,34 @@
+.store{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+    width: 100vw;
+}
+
+.store-left{
+    width: min(70%, 1200px);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 25px;
+}
+
+.storeH1 {
+    color: #2D3B6B;
+/* Display/Display 2 */
+    font-family: GD Sage;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: 15px;
+    
+}
+
+.sliderContainer{
+    width: 100%;
+    height: 500px;
+    border: 1px solid red;
+}

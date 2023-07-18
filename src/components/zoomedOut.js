@@ -3,7 +3,6 @@ import React from 'react';
 import "./zoomedOut.css";
 
 const ZoomedOut = ({indexesArr}) => {
-    console.log('at zoomed out')
     return (
     <div className="grid">
         {indexesArr.map((data, index) => (

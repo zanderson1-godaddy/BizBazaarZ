@@ -17,7 +17,7 @@ const Card = (props) => {
         return <Redirect to={redirect} />
     }
   return (
-    <div className="card">
+    <div className="card" onClick={() => {setRedirect(`/store/${index}`)}}>
       <img
         className="card-image"
         src={image[0]}
@@ -25,10 +25,9 @@ const Card = (props) => {
       />
       <div className="card-content">
         <h2 className="card-title">{name}</h2>
-        <p>{subtitle}</p>
-        <a className="card-link" onClick={() => {setRedirect(`/store/${index}`)}}>
-          Learn more
-        </a>
+        <p className="card-link">
+          {tag}
+        </p>
       </div>
     </div>
   );
