@@ -17,6 +17,7 @@ const Store = (props) => {
     const secondHalf = data.slice(Math.floor(data.length / 2));
     const newData = secondHalf.concat(firstHalf);
     const [currentIndex, setCurrentIndex] = useState((Math.floor(data.length / 2) + 1));
+    console.log(newData);
     return (
         <div className='store'>
             <Navbar/>
@@ -26,7 +27,7 @@ const Store = (props) => {
                     <AwesomeSlider bullets={false} >
                         {newData.map((data, index) => (
                             <div key={index} style={{width: "100%", height: '100%'}}>
-                                <BigCard index={index} />
+                                <BigCard index={data} />
                             </div>
                         ))}
                     </AwesomeSlider>

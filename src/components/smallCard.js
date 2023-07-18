@@ -10,7 +10,7 @@ import db from '../data.js';
 
 const Card = (props) => {
     const { index } = props;
-    const { name, tag, subtitle, url, text, image } = db.getByIndex(index);
+    const { name, tag, businessImage } = db.getByIndex(index);
 
     const [redirect, setRedirect] = useState('');
     if (redirect) {
@@ -20,7 +20,7 @@ const Card = (props) => {
     <div className="card" onClick={() => {setRedirect(`/store/${index}`)}}>
       <img
         className="card-image"
-        src={image[0]}
+        src={businessImage}
         alt="Card Image"
       />
       <div className="card-content">
