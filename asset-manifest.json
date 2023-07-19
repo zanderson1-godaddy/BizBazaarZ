@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/BizBazaarZ/static/css/main.1bf260ef.css",
-    "main.js": "/BizBazaarZ/static/js/main.fadc0a9e.js",
-    "static/js/787.129bad16.chunk.js": "/BizBazaarZ/static/js/787.129bad16.chunk.js",
-    "static/media/searchLrg2.png": "/BizBazaarZ/static/media/searchLrg2.c8256ead909d1cd22602.png",
-    "static/media/2.png": "/BizBazaarZ/static/media/2.e6bda44bad29c827de4e.png",
-    "static/media/3.png": "/BizBazaarZ/static/media/3.e4f0a413526be50e95c3.png",
-    "static/media/1.png": "/BizBazaarZ/static/media/1.9b2b692b99526d60b3f2.png",
-    "index.html": "/BizBazaarZ/index.html",
-    "main.1bf260ef.css.map": "/BizBazaarZ/static/css/main.1bf260ef.css.map",
-    "main.fadc0a9e.js.map": "/BizBazaarZ/static/js/main.fadc0a9e.js.map",
-    "787.129bad16.chunk.js.map": "/BizBazaarZ/static/js/787.129bad16.chunk.js.map"
+    "main.css": "/static/css/main.1bf260ef.css",
+    "main.js": "/static/js/main.47a25e77.js",
+    "static/js/787.129bad16.chunk.js": "/static/js/787.129bad16.chunk.js",
+    "static/media/searchLrg2.png": "/static/media/searchLrg2.c8256ead909d1cd22602.png",
+    "static/media/2.png": "/static/media/2.e6bda44bad29c827de4e.png",
+    "static/media/3.png": "/static/media/3.e4f0a413526be50e95c3.png",
+    "static/media/1.png": "/static/media/1.9b2b692b99526d60b3f2.png",
+    "index.html": "/index.html",
+    "main.1bf260ef.css.map": "/static/css/main.1bf260ef.css.map",
+    "main.47a25e77.js.map": "/static/js/main.47a25e77.js.map",
+    "787.129bad16.chunk.js.map": "/static/js/787.129bad16.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1bf260ef.css",
-    "static/js/main.fadc0a9e.js"
+    "static/js/main.47a25e77.js"
   ]
 }
