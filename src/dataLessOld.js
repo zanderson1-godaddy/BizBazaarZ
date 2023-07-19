@@ -71,7 +71,7 @@ const DATA_LAKE = [
                 "number": "3",
                 "name": "Double Velour Fleece RunMitts",
                 "img": "https://img1.wsimg.com/isteam/ip/acaace7c-0861-4719-8b88-bb09dc2de87e/ols/product-frame-2_0011_2022_0804_RunMitt-bbc6740.png/:/rs=w:1200,h:1200",
-                "description": "With a wider fit at the knuckles and new labels for added style, these mitts are both functional and fashionable. And the best part? They're machine washable and dryer-friendly, making maintenance a breeze.",
+                "description": "With a wider fit at the knuckles and new labels for added style, these mitts are both functional and fashionable. Plus, they feature an inside pocket to hold a hand warmer, ensuring your hands stay warm even in the coldest conditions.",
                 "url": "https://runmitts.com/shop-1/ols/products/2020-new-improved-double-velour-fleece-runmitts-small-9x4-inches"
             }
          ],
@@ -337,50 +337,6 @@ const DATA_LAKE = [
                 "img": "https://img1.wsimg.com/isteam/ip/33bcfdaa-6e63-4f9a-b0e4-010e5ba58f01/fb_602779808514522_2048x1096.jpg/:/cr=t:0%25,l:14.41%25,w:71.18%25,h:100%25/rs=w:776,h:583,cg:true",
                 "description": "Use our bath salts for a relaxing moment to yourself! Jasmine, rose, lavender, calendula, and citrus! All providing you with natural skin soothing mood enhancements. ",
                 "url": "https://blufit.square.site/product/SOOTHD/124?cp=true&sa=true&sbp=false&q=false"
-            }
-         ],
-         "socialMedia": [
-            {
-                "number": "1",
-                "name": "Instagram",
-                "url": "https://www.instagram.com/inoargyogastudio/"
-            },
-            {
-                "number": "2",
-                "name": "Facebook",
-                "url": "https://www.facebook.com/InoarG/"
-            }
-         ]
-        },
-	{
-         "number": "9",
-         "tag": "wellness",
-         "name": "Coco River Organics",
-         "description": "At COCO RIVER ORGANICS we are committed to quality. We believe that quality should never be compromised and therefore, we source only premium, organic and 100% plant ingredients. Our mission is to provide purest quality organic products available, that you can trust to be pure.  ",
-         "url": "https://cocoriverorganics.com/",
-         "businessImage": "https://img1.wsimg.com/isteam/stock/25887/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:2480,h:1240,cg:true",
-         "logoImage": "https://img1.wsimg.com/isteam/ip/33bcfdaa-6e63-4f9a-b0e4-010e5ba58f01/InoarG-0ebaa4c.png/:/rs=w:200,h:200,cg:true,m/cr=w:200,h:200/qt=q:95",
-         "featuredProducts": [
-            {
-                "number": "1",
-                "name": "FRAGRANCE FREE Silky Liquid Soap",
-                "img": "https://img1.wsimg.com/isteam/ip/e38b6f75-e406-4580-a30d-1f35ca0f4e10/ols/IMG_1077%20(1).jpg/:/rs=w:782,h:1042",
-                "description": "Coco River Organics FRAGRANCE FREE liquid soap is organic and 100% plant ingredient soap.  It is gentle and effective for all skin types and is especially recommended for those with skin conditions and chemical sensitivities.",
-                "url": "https://cocoriverorganics.com/shop-here/ols/products/coco-river-organics-phyto-therapeutic-fragrance-free"
-            },
-            {
-                "number": "2",
-                "name": "ENERGY MENTHE Silky Liquid Soap",
-                "img": "https://img1.wsimg.com/isteam/ip/e38b6f75-e406-4580-a30d-1f35ca0f4e10/ols/IMG_1079.jpg/:/rs=w:782,h:1042",
-                "description": "Coco River Organics Energy Menthe Silky Liquid Soap is organic and 100% plant ingredient soap.  It is gentle and effective for all skin types and is especially recommended for those with skin conditions and chemical sensitivities.",
-                "url": "https://cocoriverorganics.com/shop-here/ols/products/coco-river-organics-phyto-therapeutic-energy-menthe"
-            },
-            {
-                "number": "3",
-                "name": "LAVENDER SOOTHE Silky Liquid Soap",
-                "img": "https://img1.wsimg.com/isteam/ip/e38b6f75-e406-4580-a30d-1f35ca0f4e10/ols/IMG_1084.jpg/:/rs=w:782,h:1042",
-                "description": "Coco River Organics Lavender Soothe silky liquid soap is organic and 100% plant ingredient soap.  It is gentle and effective for all skin types and is especially recommended for those with skin conditions and chemical sensitivities.",
-                "url": "https://cocoriverorganics.com/shop-here/ols/products/coco-river-organics-phyto-therapeutic-lavender-soothe"
             }
          ],
          "socialMedia": [

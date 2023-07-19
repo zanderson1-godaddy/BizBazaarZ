@@ -3,9 +3,9 @@ import { useState } from 'react';
 import './launch.css';
 import { Redirect } from 'react-router-dom';
 import Navbar from './components/navbar';
-import Stalls from './assets/stalls.png';
-import Exploring from './assets/exploring3.png';
-import Search from './assets/searchLrg.png';
+import Stalls from './assets/1.png';
+import Exploring from './assets/2.png';
+import Search from './assets/3.png';
 
 const Launch = () => {
     const [redirect, setRedirect] = useState('');

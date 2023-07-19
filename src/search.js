@@ -2,7 +2,7 @@ import React from "react"
 import { useState, useEffect } from "react"
 import db from "./data"
 import { Redirect } from 'react-router-dom';
-import Find from './assets/find.png';
+import Find from './assets/searchLrg2.png';
 import './search.css';
 import Navbar from "./components/navbar";
 const Search = () => {

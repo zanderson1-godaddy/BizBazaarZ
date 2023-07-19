@@ -13,21 +13,21 @@ const DATA_LAKE = [
                 "number": "1",
                 "name": "HeliCat 135 - Deep Powder",
                 "img": "https://img1.wsimg.com/isteam/ip/387477c0-c10a-4bfd-8789-6151bf40c5bb/ols/helicat-hinterland-heli-ski.png",
-                "description": "This ski features a full rocker shape, providing effortless flotation in deep powder, along with the power and agility needed to charge through challenging lines and make nimble adjustments on the go.",
+                "description": "Experience the thrill of big mountain skiing with the HeliCat, designed exclusively for helicopter and cat skiing adventures in Alaska. Hinterland's innovative design ensures exceptional surf-like performance and stability, with a wide reverse sidecut at the front for excellent grip on varied snow conditions. This ski features a full rocker shape, providing effortless flotation in deep powder, along with the power and agility needed to charge through challenging lines and make nimble adjustments on the go.",
                 "url": "https://hinterlandskis.com/shop-all/ols/products/helicat"
             },
             {
                 "number": "2",
                 "name": "The Macabre 97 - All Mountain",
                 "img": "https://img1.wsimg.com/isteam/ip/387477c0-c10a-4bfd-8789-6151bf40c5bb/ols/best-all-mountain-ski-2021-0001.png",
-                "description": "Step up your game a little bit with the Macabre 97 Ski. This 97mm dream ski adds width underfoot for more stability at high speeds and rocker in the tip which boosts handling through soft snow. We can’t forget to mention this skis exquisite shape with a tapered tip and solid tail which allows the skier to arc ‘em like Mikaela on the groomed terrain. Take your skiing to the next level, the Macabre 97 level.",
+                "description": "Step up your game a little bit with the Macabre 97 Ski. This 97mm dream ski adds width underfoot for more stability at high speeds and rocker in the tip which boosts handling through soft snow. We can’t forget to mention this skis exquisite shape with a tapered tip and solid tail which allows the skier to arc ‘em like Mikaela on the groomed terrain. East, west or in between, this ski will keep you jazzed and always looking for that next turn. Take your skiing to the next level, the Macabre 97 level.",
                 "url": "https://hinterlandskis.com/shop-all/ols/products/the-macabre-97-all-mountain"
             },
             {
                 "number": "3",
                 "name": "The 88 - All Mountain Carve",
                 "img": "https://img1.wsimg.com/isteam/ip/387477c0-c10a-4bfd-8789-6151bf40c5bb/ols/best-groomer-ski-2021-0002.png",
-                "description": "The 88 ski is designed to conquer groomers and bring out your inner speed demon. Its sleek shape and 15.5m radius allow for effortless carving, resembling a slalom race ski.",
+                "description": "Ready, set, race with the RACER READY 3,2,1 Beep! The 88 ski is designed to conquer groomers and bring out your inner speed demon. Its sleek shape and 15.5m radius allow for effortless carving, resembling a slalom race ski. With excellent performance on hardpack and the ability to handle variable terrain, this ski is both fast and versatile, guaranteed to make heads turn on the slopes.",
                 "url": "https://hinterlandskis.com/shop-all/ols/products/the-88-all-mountain-carve"
             }
          ],
@@ -71,7 +71,7 @@ const DATA_LAKE = [
                 "number": "3",
                 "name": "Double Velour Fleece RunMitts",
                 "img": "https://img1.wsimg.com/isteam/ip/acaace7c-0861-4719-8b88-bb09dc2de87e/ols/product-frame-2_0011_2022_0804_RunMitt-bbc6740.png/:/rs=w:1200,h:1200",
-                "description": "With a wider fit at the knuckles and new labels for added style, these mitts are both functional and fashionable. And the best part? They're machine washable and dryer-friendly, making maintenance a breeze.",
+                "description": "With a wider fit at the knuckles and new labels for added style, these mitts are both functional and fashionable. Plus, they feature an inside pocket to hold a hand warmer, ensuring your hands stay warm even in the coldest conditions. And the best part? They're machine washable and dryer-friendly, making maintenance a breeze.",
                 "url": "https://runmitts.com/shop-1/ols/products/2020-new-improved-double-velour-fleece-runmitts-small-9x4-inches"
             }
          ],
@@ -123,12 +123,12 @@ const DATA_LAKE = [
                {
                    "number": "1",
                    "name": "Instagram",
-                   "url": "https://www.instagram.com/harpvision40/?hl=en"
+                   "url": "https://www.instagram.com/whitepaws_runmitts"
                },
                {
                    "number": "2",
                    "name": "Facebook",
-                   "url": "https://www.facebook.com/harpvision/"
+                   "url": "https://www.facebook.com/1755010418121502"
                }
             ]
            },
@@ -167,12 +167,12 @@ const DATA_LAKE = [
                {
                    "number": "1",
                    "name": "Instagram",
-                   "url": "https://www.instagram.com/detroitcookiecompany/"
+                   "url": "https://www.instagram.com/whitepaws_runmitts"
                },
                {
                    "number": "2",
                    "name": "Facebook",
-                   "url": "https://www.facebook.com/detroitcookiecompany/"
+                   "url": "https://www.facebook.com/1755010418121502"
                }
             ]
         },
@@ -211,12 +211,12 @@ const DATA_LAKE = [
                {
                    "number": "1",
                    "name": "Instagram",
-                   "url": "https://www.instagram.com/a_buddingchange/"
+                   "url": "https://www.instagram.com/whitepaws_runmitts"
                },
                {
                    "number": "2",
                    "name": "Facebook",
-                   "url": "https://www.facebook.com/abuddingchange/"
+                   "url": "https://www.facebook.com/1755010418121502"
                }
             ]
         },
@@ -233,7 +233,7 @@ const DATA_LAKE = [
                    "number": "1",
                    "name": "Orange Corn Flour",
                    "img": "https://professortorberts.com/wp-content/uploads/2020/12/Pancake-Ingredients_Corn-Flour2.jpg",
-                   "description": "Corn flour might not command the culinary limelight like grits, but ours will quickly become one of your go-to favorites. Use it for imaginative desserts, gluten-free baking, pancakes, corn pudding, breadings and fry batters. Non-GMO, gluten-free*, and vegan.",
+                   "description": "Corn flour might not command the culinary limelight like grits, but ours will quickly become one of your go-to favorites. Use it for imaginative desserts, gluten-free baking, pancakes, corn pudding, breadings and fry batters. Seeking cornbread perfection? Pair it with our corn meal or grits. Non-GMO, gluten-free*, and vegan.",
                    "url": "https://professortorberts.com/product/orange-corn-flour-24-oz-bag/"
                },
                {
@@ -255,12 +255,12 @@ const DATA_LAKE = [
                 {
                     "number": "1",
                     "name": "Instagram",
-                    "url": "https://www.instagram.com/professor_torberts/"
+                    "url": "https://www.instagram.com/whitepaws_runmitts"
                 },
                 {
                     "number": "2",
                     "name": "Facebook",
-                    "url": "https://www.facebook.com/professortorberts/"
+                    "url": "https://www.facebook.com/1755010418121502"
                 }
              ]
         },
@@ -299,12 +299,12 @@ const DATA_LAKE = [
                 {
                     "number": "1",
                     "name": "Instagram",
-                    "url": "https://www.instagram.com/bionicyarn/"
+                    "url": "https://www.instagram.com/whitepaws_runmitts"
                 },
                 {
                     "number": "2",
                     "name": "Facebook",
-                    "url": "https://www.facebook.com/bionicyarn"
+                    "url": "https://www.facebook.com/1755010418121502"
                 }
              ]
         },
@@ -343,56 +343,12 @@ const DATA_LAKE = [
             {
                 "number": "1",
                 "name": "Instagram",
-                "url": "https://www.instagram.com/inoargyogastudio/"
+                "url": "https://www.instagram.com/whitepaws_runmitts"
             },
             {
                 "number": "2",
                 "name": "Facebook",
-                "url": "https://www.facebook.com/InoarG/"
-            }
-         ]
-        },
-	{
-         "number": "9",
-         "tag": "wellness",
-         "name": "Coco River Organics",
-         "description": "At COCO RIVER ORGANICS we are committed to quality. We believe that quality should never be compromised and therefore, we source only premium, organic and 100% plant ingredients. Our mission is to provide purest quality organic products available, that you can trust to be pure.  ",
-         "url": "https://cocoriverorganics.com/",
-         "businessImage": "https://img1.wsimg.com/isteam/stock/25887/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:2480,h:1240,cg:true",
-         "logoImage": "https://img1.wsimg.com/isteam/ip/33bcfdaa-6e63-4f9a-b0e4-010e5ba58f01/InoarG-0ebaa4c.png/:/rs=w:200,h:200,cg:true,m/cr=w:200,h:200/qt=q:95",
-         "featuredProducts": [
-            {
-                "number": "1",
-                "name": "FRAGRANCE FREE Silky Liquid Soap",
-                "img": "https://img1.wsimg.com/isteam/ip/e38b6f75-e406-4580-a30d-1f35ca0f4e10/ols/IMG_1077%20(1).jpg/:/rs=w:782,h:1042",
-                "description": "Coco River Organics FRAGRANCE FREE liquid soap is organic and 100% plant ingredient soap.  It is gentle and effective for all skin types and is especially recommended for those with skin conditions and chemical sensitivities.",
-                "url": "https://cocoriverorganics.com/shop-here/ols/products/coco-river-organics-phyto-therapeutic-fragrance-free"
-            },
-            {
-                "number": "2",
-                "name": "ENERGY MENTHE Silky Liquid Soap",
-                "img": "https://img1.wsimg.com/isteam/ip/e38b6f75-e406-4580-a30d-1f35ca0f4e10/ols/IMG_1079.jpg/:/rs=w:782,h:1042",
-                "description": "Coco River Organics Energy Menthe Silky Liquid Soap is organic and 100% plant ingredient soap.  It is gentle and effective for all skin types and is especially recommended for those with skin conditions and chemical sensitivities.",
-                "url": "https://cocoriverorganics.com/shop-here/ols/products/coco-river-organics-phyto-therapeutic-energy-menthe"
-            },
-            {
-                "number": "3",
-                "name": "LAVENDER SOOTHE Silky Liquid Soap",
-                "img": "https://img1.wsimg.com/isteam/ip/e38b6f75-e406-4580-a30d-1f35ca0f4e10/ols/IMG_1084.jpg/:/rs=w:782,h:1042",
-                "description": "Coco River Organics Lavender Soothe silky liquid soap is organic and 100% plant ingredient soap.  It is gentle and effective for all skin types and is especially recommended for those with skin conditions and chemical sensitivities.",
-                "url": "https://cocoriverorganics.com/shop-here/ols/products/coco-river-organics-phyto-therapeutic-lavender-soothe"
-            }
-         ],
-         "socialMedia": [
-            {
-                "number": "1",
-                "name": "Instagram",
-                "url": "https://www.instagram.com/inoargyogastudio/"
-            },
-            {
-                "number": "2",
-                "name": "Facebook",
-                "url": "https://www.facebook.com/InoarG/"
+                "url": "https://www.facebook.com/1755010418121502"
             }
          ]
         }
