@@ -4,7 +4,7 @@ import './launch.css';
 import { Redirect } from 'react-router-dom';
 import Navbar from './components/navbar';
 import Stalls from './assets/stalls.png';
-import Exploring from './assets/exploring.png';
+import Exploring from './assets/exploring3.png';
 import Search from './assets/searchLrg.png';
 
 const Launch = () => {

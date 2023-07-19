@@ -85,3 +85,7 @@
   border: 1px solid #358FC0;
   border-radius: 5px;
 }
+
+.left h1:hover{
+  cursor: pointer;
+}

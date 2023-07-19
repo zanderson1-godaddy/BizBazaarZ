@@ -6,6 +6,7 @@
     align-items: center;
     justify-content: flex-start;
     background-color: white;
+    border-radius: 20px;
 }
 
 .firstSection{
@@ -20,6 +21,23 @@
   padding-top: 20px;
 }
 
+.firstSection a{
+  display: flex;
+  width: 338.948px;
+  height: 23.476px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #2D3B6B;
+  text-align: center;
+  font-family: GD Sherpa;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 850;
+  line-height: 120%; /* 24px */
+  text-decoration-line: underline;
+}
+
 .big-card-content{
   width: 80%;
   height: 80%;
@@ -27,30 +45,49 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.big-card-content Flippy:hover{
+  cursor: pointer;
 }
 
 .big-card-content img{
   height: 100%;
 }
 
+.big-card-content *{
+  border-radius: 20px;
+}
+
+
+
 .grayout{
   height: 100%;
   filter: (80%);
   padding: 10px;
+  opacity: 1;
 }
 
 .grayout * {
   color: black;
 }
 
+.grayout h3 {
+  opacity: 1;
+}
+
 .bigBottom{
   height: 25%;
-  width: 80%;
+  width: 75%;
   padding: 20px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 .bigBtmText{
@@ -62,6 +99,39 @@
   align-items: flex-start;
 }
 
+.bigBtmText h3{
+  display: flex;
+  width: 338.948px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #2D3B6B;
+  font-family: GD Sherpa;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 850;
+  line-height: 120%; /* 48px */
+}
+
+.bigBtmText h3:hover{
+  cursor: pointer;
+}
+
+.bigBtmText p{
+  display: flex;
+  width: 875px;
+  height: 60px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #2D3B6B;
+  font-family: GD Sherpa;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 695;
+  line-height: 120%; /* 28.8px */
+}
+
 .socialsBig{
   width: 10%;
   height: 100%;
@@ -69,4 +139,29 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-end;
+}
+
+.socialsBig p{
+  margin-top: 10px;
+  display: inline-flex;
+  padding: 8px;
+  align-items: flex-start;
+  border-radius: 4px;
+  background: #BED8E7;
+  color: #358FC0;
+  font-family: GD Sherpa;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 850;
+  line-height: 120%; /* 19.2px */
+  letter-spacing: 0.9px;
+  text-transform: uppercase;
+}
+
+.socialsBig svg{
+  margin-left: 5px;
+}
+
+.socialsBig svg:hover{
+  cursor: pointer;
 }
