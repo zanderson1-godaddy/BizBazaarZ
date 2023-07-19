@@ -20,7 +20,7 @@ const Navbar = () => {
         </div>
         <div className="right">
             <p
-            onClick={() => {setRedirect("/gallery")}}
+            onClick={() => {setRedirect("/gallery/explore")}}
             >EXPLORE</p>
             {/* <p
             onClick={() => {setRedirect("/")}}
