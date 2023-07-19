@@ -22,9 +22,9 @@ const Navbar = () => {
             <p
             onClick={() => {setRedirect("/gallery/explore")}}
             >EXPLORE</p>
-            <p
+            {/* <p
             onClick={() => {setRedirect("/")}}
-            >SAVED</p>
+            >SAVED</p> */}
             <img id = "searchIcon" src={searchIcon}
             onClick={() => {setRedirect("/search")}}
             />

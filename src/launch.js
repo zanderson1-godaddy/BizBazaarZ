@@ -16,7 +16,7 @@ const Launch = () => {
   return (
     <div className='launch'>
       <Navbar />
-        <h1>All your local businesses, in one place.</h1>
+        <h1>Millions of small businesses, in one place.</h1>
         <div className='launch-images'>
           <div className='launch-image'
           onClick={() => {setRedirect("/gallery/explore")}}
