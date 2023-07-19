@@ -28,7 +28,7 @@ const Store = (props) => {
         <div className='store'>
             <Navbar/>
             <div className='store-left'>
-                <h1 className='storeH1' onClick={() => {setRedirect("/gallery/explore")}}> {'← Explore the market'} </h1>
+                <h1 className='storeH1' onClick={() => {setRedirect("/gallery")}}> {'← Explore the market'} </h1>
                 <div className='sliderContainer'>
                     <AwesomeSlider bullets={false} >
                         {newData.map((data, index) => (
